@@ -2,38 +2,38 @@ package HomeWork_1;
 
 public class Main {
     public static void main(String[] args) {
-        byte b10 = 12;
-        System.out.println(b10);
+        byte byteVar = 12;
+        System.out.println(byteVar);
 
-        short s10 = -1300;
-        System.out.println(s10);
+        short shortVar = -1300;
+        System.out.println(shortVar);
 
 
-        int i10 = 0;
-        System.out.println(i10);
+        int intVar = 0;
+        System.out.println(intVar);
 
-        long l10 = 123456789L;
-        System.out.println(l10);
+        long longVar = 123456789L;
+        System.out.println(longVar);
 
-        float f1 = 2.15F;
-        System.out.println(f1);
+        float floatVar = 2.15F;
+        System.out.println(floatVar);
 
-        double d1 = 25.36;
-        System.out.println(d1);
+        double doubleVar = 25.36;
+        System.out.println(doubleVar);
 
-        char c1 = 'A';
-        char c2 = '\u0555';
-        char c3 = 777;
+        char charVarOne = 'A';
+        char charVarTwo = '\u0555';
+        char charVarThree = 777;
 
-        System.out.println(c1);
-        System.out.println(c2);
-        System.out.println(c3);
+        System.out.println(charVarOne);
+        System.out.println(charVarTwo);
+        System.out.println(charVarThree);
 
-        boolean bool1 = true;
-        boolean bool2 = false;
+        boolean booleanVarOne = true;
+        boolean booleanVarTwo = false;
 
-        System.out.println(bool1);
-        System.out.println(bool2);
+        System.out.println(booleanVarOne);
+        System.out.println(booleanVarTwo);
 
         String name = "Andrey ";
         String said = "Hello World!";
