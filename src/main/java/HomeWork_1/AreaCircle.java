@@ -6,21 +6,21 @@ import java.io.InputStreamReader;
 
 class AreaCircle {
 
-    double area (int radius) {
+    double calculationAreaCircle (int radius) {
         return (3.14 * (radius * radius));
     }
 }
 class CalcAreaCircle{
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Введите радиус (в см) круга площадь которого нужно посчитать: ");
+        System.out.println("Enter the radius of the circle (in cm) whose area you want to calculate: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String read = reader.readLine();
-        int r = Integer.parseInt(read);
+        int radiusCircle = Integer.parseInt(read);
 
         AreaCircle obj = new AreaCircle();
-        System.out.println("Площадь круга = " + obj.area(r) + " см2");
+        System.out.println("Area of a circle = " + obj.calculationAreaCircle(radiusCircle) + " сm2");
 
     }
 }
